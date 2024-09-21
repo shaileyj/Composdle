@@ -64,7 +64,6 @@ def play_musicle(length, possible_notes):
                     curr_answer_chs[letter] -= 1
                 else:
                     colors[index] = BLACK
-
             string = ''
             for i in range(length):
                 string += colors[i]
